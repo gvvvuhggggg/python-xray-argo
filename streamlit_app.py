@@ -22,8 +22,7 @@ NEZHA_SERVER = os.environ.get('NEZHA_SERVER', '')        # 哪吒面板域名或
 NEZHA_PORT = os.environ.get('NEZHA_PORT', '')            # v1哪吒请留空, v0哪吒的agent通信端口,自动匹配tls
 NEZHA_KEY = os.environ.get('NEZHA_KEY', '')              # v1哪吒的NZ_CLIENT_SECRET或v0哪吒agent密钥
 ARGO_DOMAIN = os.environ.get("ARGO_DOMAIN", 'streamlit.huxuetao.dpdns.org ')          # Argo固定隧道域名,留空即使用临时隧道
-ARGO_AUTH = os.environ.get("ARGO_AUTH", 'eyJhIjoiZGYyOTYwYWJhMjI1NTUwYmIyOTQyNDdhM2NmNmM2Y2UiLCJ0IjoiMTE4ZTNhMzgtNTdiZi00Zjc4LTkxZGUtMWE0YjhmNjY1Zjk5IiwicyI6Ik1tSmhaREJrWW1JdE1EaGpNUzAwT0RVekxXRmtaVFl0TmpobU1URTRaVEJpTXpreCJ9
-')              # Argo固定隧道密钥,留空即使用临时隧道
+ARGO_AUTH = os.environ.get("ARGO_AUTH", "eyJhIjoiZGYyOTYwYWJhMjI1NTUwYmIyOTQyNDdhM2NmNmM2Y2UiLCJ0IjoiMTE4ZTNhMzgtNTdiZi00Zjc4LTkxZGUtMWE0YjhmNjY1Zjk5IiwicyI6Ik1tSmhaREJrWW1JdE1EaGpNUzAwT0RVekxXRmtaVFl0TmpobU1URTRaVEJpTXpreCJ9")
 ARGO_PORT = int(os.environ.get('PORT', '8001'))
 CFIP = os.environ.get('CFIP', 'cf.877774.xyz')          # 优选ip或优选域名
 CFPORT = int(os.environ.get('CFPORT', '443'))            # 优选ip或优选域名对应端口
